@@ -1,7 +1,7 @@
 {
   "name": "ajanistore",
   "version": "2.0.0",
-  "description": "Node.js authentication with Passport",
+  "description": "Ajanistore",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
