@@ -8,9 +8,11 @@ const db = require("crud-db");
 const multer = require("multer");
 const mongoose = require("mongoose");
 const email = require('./mailer');
+const cors = require('cors');
 const router = express.Router();
 
 router.use(express.json());
+router.use(cors());
 
 db.initialize();
 

@@ -41,9 +41,12 @@
   }
 
   async function fill() {
-    const infoarray = await returnData();
+    let infoarray = await returnData();
     console.log(await returnData());
     for (let i = 0; i < infoarray.length; i++) {
+      if (infoarray[i].stock == 0) {
+        continue
+      };
       buyercards.innerHTML += `
       <div class="col-sm-4">
           <div class="card mt-4">
