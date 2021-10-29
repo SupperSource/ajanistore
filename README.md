@@ -57,4 +57,6 @@ PS C:/User/Documents/Development> mongod
 $ sudo mongod
 ```
 
+#### Hacktoberfest pull requests are accepted.
+
 ### Enjoy your powerfull application.
